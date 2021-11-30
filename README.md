@@ -22,7 +22,7 @@ file is opened in a QuickLook window where it may be saved to camera roll.
    Python 2):
 
     ```sh
-    $ git clone https://github.com/Roman2K/youtube-dl-ios
+    $ git clone https://github.com/megabitsenmzq/youtube-dl-ios
     ```
 
 
