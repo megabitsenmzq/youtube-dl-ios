@@ -1,13 +1,12 @@
-# youtube-dl-ios
+# youtube-dl-ios (Megabits fork)
 
-> [youtube-dl][youtube-dl] for iOS, with [Pythonista][pythonista] and
-[Shortcuts][shortcuts]
+> [youtube-dl][youtube-dl] for iOS, with [Pythonista][pythonista]
 
-Download a video (or its audio track) by sharing it to a shortcut
+Download a video (or its audio track) by copy the URl to Pythonista.
 
-The shortcut calls a helper script run within Pythonista. This script passes the
+This script passes the
 URL to youtube-dl to do the actual download. After the download completes, the
-file is opened in a share sheet where it may be copied to any app, such as VLC.
+file is opened in a QuickLook window where it may be saved to camera roll.
 
 ## Install
 
@@ -23,20 +22,17 @@ file is opened in a share sheet where it may be copied to any app, such as VLC.
    Python 2):
 
     ```sh
-    $ cd
     $ git clone https://github.com/Roman2K/youtube-dl-ios
     ```
 
-5. Install the shortcut: [iCloud link][shortcut]
 
 ## Usage
 
-1. Share a video to Shortcuts and then youtube-dl-ios
-2. The downloaded file opens in a share sheet: choose an app
-3. (The temporary file is cleaned up)
+1. Copy a YouTube URL.
+2. Run the script.
+3. Select a format to download. To save to camera roll, select an AVC format.
+4. Tap on the share button to save the file.
 
 [youtube-dl]: https://rg3.github.io/youtube-dl/
 [pythonista]: http://omz-software.com/pythonista/
-[shortcuts]: https://support.apple.com/en-jo/guide/shortcuts/welcome/ios
 [stash]:https://github.com/ywangd/stash
-[shortcut]: https://www.icloud.com/shortcuts/85f6b11f2827451da6d1f5b82b11816a
