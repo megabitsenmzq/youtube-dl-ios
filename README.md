@@ -14,7 +14,7 @@ This fork is using [yt-dlp][yt-dlp] for a better experience.
 
 1. Install Pythonista
 2. In Pythonista, install [StaSH][stash]
-3. In a StaSH console, install youtube-dl:
+3. In a StaSH console, install yt-dlp:
 
     ```sh
     $ pip install yt-dlp
