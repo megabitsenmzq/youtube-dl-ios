@@ -37,7 +37,10 @@ if not file:
 print('downloaded: %s' % (file))
 
 try:
-	console.open_in(file)	
+	if format_choise.split()[2] = 'webm':
+		console.open_in(file)
+	else:
+		console.quicklook(file)
 finally:
 	os.remove(file)
 	print('deleted: %s' % (file))
