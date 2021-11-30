@@ -15,7 +15,7 @@ file is opened in a QuickLook window where it may be saved to camera roll.
 3. In a StaSH console, install youtube-dl:
 
     ```sh
-    $ pip install youtube-dl
+    $ pip install yt_dlp
     ```
 
 4. and clone this repository (note: `git` is only available if StaSH is run in

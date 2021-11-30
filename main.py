@@ -4,7 +4,7 @@ import clipboard
 import sys
 import glob
 import os
-from youtube_dl import YoutubeDL
+from yt_dlp import YoutubeDL
 from objc_util import on_main_thread
 
 #Screen always on.
