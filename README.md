@@ -17,14 +17,14 @@ This fork is using [yt-dlp][yt-dlp] for a better experience.
 3. In a StaSH console, install yt-dlp:
 
     ```sh
-    $ pip install yt-dlp
+    pip install yt-dlp
     ```
 
 4. and clone this repository (note: `git` is only available if StaSH is run in
    Python 2):
 
     ```sh
-    $ git clone https://github.com/megabitsenmzq/youtube-dl-ios
+    git clone https://github.com/megabitsenmzq/youtube-dl-ios
     ```
 
 
