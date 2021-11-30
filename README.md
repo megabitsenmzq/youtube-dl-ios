@@ -8,6 +8,8 @@ This script passes the
 URL to youtube-dl to do the actual download. After the download completes, the
 file is opened in a QuickLook window where it may be saved to camera roll.
 
+This fork is using [yt-dlp][yt-dlp] for a better experience.
+
 ## Install
 
 1. Install Pythonista
@@ -15,7 +17,7 @@ file is opened in a QuickLook window where it may be saved to camera roll.
 3. In a StaSH console, install youtube-dl:
 
     ```sh
-    $ pip install yt_dlp
+    $ pip install yt-dlp
     ```
 
 4. and clone this repository (note: `git` is only available if StaSH is run in
@@ -34,5 +36,6 @@ file is opened in a QuickLook window where it may be saved to camera roll.
 4. Tap on the share button to save the file.
 
 [youtube-dl]: https://rg3.github.io/youtube-dl/
+[yt-dlp]: https://github.com/yt-dlp/yt-dlp
 [pythonista]: http://omz-software.com/pythonista/
 [stash]:https://github.com/ywangd/stash
