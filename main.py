@@ -37,7 +37,7 @@ if not file:
 print('downloaded: %s' % (file))
 
 try:
-	console.quicklook(file)	
+	console.open_in(file)	
 finally:
 	os.remove(file)
 	print('deleted: %s' % (file))
